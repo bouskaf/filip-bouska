@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Corbert-Regular';
+    src: url(fonts/Corbert-Regular.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Gidole-Regular';
+    src: url(fonts/Gidole-Regular.otf); /*URL to font*/
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+span  {
+    font-size: 6em;
+    font-family: 'Corbert-Regular';
+    color: #aaaaaa;
+}
