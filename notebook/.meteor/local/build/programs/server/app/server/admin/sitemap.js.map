@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/server/admin/sitemap.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,G","file":"/server/admin/sitemap.js","sourcesContent":["sitemaps.add('/sitemap.xml', function() {\n\treturn [{\n\t\tpage: '/',\n\t\tchangefreq: 'weekly'\n\t}, {\n\t\tpage: '/blog',\n\t\tchangefreq: 'daily'\n\t}];\n});"]}
