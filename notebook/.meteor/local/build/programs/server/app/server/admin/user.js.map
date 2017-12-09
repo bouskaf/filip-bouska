@@ -1,1 +1,0 @@
-{"version":3,"sources":["meteor://💻app/server/admin/user.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,G","file":"/server/admin/user.js","sourcesContent":["Meteor.dkoo = {\n\tcheckUser: function(userId) {\n\t\treturn true\n\t}\n};\n\nMeteor.users.deny({\n\tupdate: function() {\n\t\treturn true;\n\t}\n});"]}
